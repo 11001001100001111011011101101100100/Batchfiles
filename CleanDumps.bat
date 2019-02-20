@@ -1,1 +1,1 @@
-psexec \\%1 -u corp\jlprice del C:\WINDOWS\pchealth\ERRORREP\UserDumps\*.* /y
+psexec \\%1 -u Domain\Username del C:\WINDOWS\pchealth\ERRORREP\UserDumps\*.* /y
