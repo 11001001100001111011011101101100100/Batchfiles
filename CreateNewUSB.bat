@@ -29,27 +29,7 @@ exit
 color 1e
 mode con: cols=31 lines=23
 echo.
-echo    ******             ******  
-echo   ****                   **** 
-echo  ***      ***********      ***
-echo  **     ***************     **
-echo  *    *******************    *
-echo  *   ****             ****   *
-echo      ***    *******    ***    
-echo     ***    *********    ***   
-echo     ***   ***     ***   ***   
-echo     ***   **       **   ***   
-echo     *Bright House Networks*   
-echo     ***   **       **   ***   
-echo     ***   ***     ***   ***   
-echo     ***    ********     ***   
-echo      ***    *******    ***    
-echo  *   ****             ****   *
-echo  *    *******************    *
-echo  **     ***************     **
-echo  ***      ***********      ***
-echo  ****                    **** 
-echo   ******              ******  
+
 ping 127.0.0.1 >nul
 color 07
 mode con: cols=79 lines=13
@@ -122,7 +102,7 @@ call :cecho 0c "All data on %diskname% will be erased" /nb
 setlocal disabledelayedexpansion
 call :cecho 0c "! Are you sure you want to proceed? [Y,N]"
 setlocal enabledelayedexpansion
-set bootablefiles=\\tamp20pvfiler09\SHARE1\Installs\HofmanniaStudios\Imaging\USB
+set bootablefiles="your File Location"
 set /p confirmation=
 If /i %confirmation%==y (
 	echo.
